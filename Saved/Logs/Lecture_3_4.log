@@ -1314,3 +1314,84 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.10.22-03.52.08:881][933]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.22-03.52.08:881][933]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
 [2021.10.22-03.52.08:881][933]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.10.22-04.16.42:086][105]Cmd: DELETE
+[2021.10.22-04.16.42:087][105]Cmd: ACTOR DELETE
+[2021.10.22-04.16.42:088][105]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.10.22-04.16.42:093][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2021.10.22-04.16.42:094][105]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2021.10.22-04.16.47:507][422]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.10.22-04.16.47:513][422]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2021.10.22-04.16.47:520][422]LogContentBrowser: Creating deferred item: NewBlueprint
+[2021.10.22-04.16.49:496][656]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Construction
+[2021.10.22-04.16.49:500][656]LogContentBrowser: End creating deferred item NewBlueprint
+[2021.10.22-04.16.51:077][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Construction.BP_Construction
+[2021.10.22-04.16.51:242][838]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 127 classes and 0 folders.
+[2021.10.22-04.16.51:961][838]LogStaticMesh: StaticMesh /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox should be resaved to improve async compilation performance.
+[2021.10.22-04.17.21:181][667]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.22-04.17.26:144][247]LogStaticMesh: StaticMesh /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder should be resaved to improve async compilation performance.
+[2021.10.22-04.17.26:164][247]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (Shape_Cylinder) ...
+[2021.10.22-04.18.22:366][698]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.10.22-04.18.35:299][ 10]BlueprintLog: New page: Compile BP_Construction
+[2021.10.22-04.18.35:358][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2021.10.22-04.18.59:831][225]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.10.22-04.18.59:842][225]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_Default_Auto17096939F4B5E9503EB06EAADFD1B9EEF.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2021.10.22-04.18.59:843][225]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StarterContent/Maps/Minimal_Default' took 0.054
+[2021.10.22-04.18.59:843][225]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.054
+[2021.10.22-04.20.45:661][625]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.10.22-04.22.03:936][963]BlueprintLog: New page: Compile BP_Construction
+[2021.10.22-04.22.03:978][963]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.10.22-04.22.04:257][992]BlueprintLog: New page: Compile BP_Construction
+[2021.10.22-04.22.04:296][992]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.10.22-04.22.04:401][  1]BlueprintLog: New page: Compile BP_Construction
+[2021.10.22-04.22.04:441][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.10.22-04.22.04:535][ 11]BlueprintLog: New page: Compile BP_Construction
+[2021.10.22-04.22.04:574][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.10.22-04.22.05:584][126]LogSlate: Window 'BP_Construction' being destroyed
+[2021.10.22-04.22.05:589][126]LogSlate: Window 'BP_Construction' being destroyed
+[2021.10.22-04.22.05:590][126]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-04.22.05:591][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-04.22.50:289][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.10.22-04.22.50:303][ 85]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_DefaultD8693DD2414B3CE41493A9AA7FB7602D.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.10.22-04.22.50:306][ 85]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.10.22-04.22.50:335][ 85]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_Default_BuiltData38C290F849A1FA249DC962BE50801AD5.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.10.22-04.22.50:336][ 85]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.10.22-04.22.50:346][ 85]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.22-04.22.50:346][ 85]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.10.22-04.22.50:346][ 85]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.10.22-04.23.50:572][817]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.10.22-04.23.50:586][817]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_Default9DF6A6FE472352FD0EBD32ACCB666109.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.10.22-04.23.50:588][817]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.10.22-04.23.50:617][817]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_Default_BuiltData96BD6CC3409F5F1DCDDEC590F726EB63.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.10.22-04.23.50:618][817]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.10.22-04.23.50:629][817]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.22-04.23.50:629][817]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.10.22-04.23.50:629][817]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: URL: C:\Users\fayos\AppData\Local/Programs/Git/cmd/git.exe version
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.10.22-04.24.29:489][603]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2021.10.22-04.24.29:490][603]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.10.22-04.24.29:490][603]LogWindows: Warning: URL: C:\Users\fayos\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2021.10.22-04.24.29:490][603]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.10.22-04.24.29:490][603]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2021.10.22-04.24.41:985][ 16]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2021.10.22-04.24.41:986][ 16]LogWindows: Warning: URL: D:/UE_5.0EA/Engine/Binaries/Win64/ version
+[2021.10.22-04.24.45:596][421]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2021.10.22-04.24.45:596][421]LogWindows: Warning: URL: D:/UE_5.0EA/Engine/Binaries/Win64/ version
+[2021.10.22-04.24.45:596][421]SourceControl: Error: Connection Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2021.10.22-04.24.49:084][773]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2021.10.22-04.24.49:084][773]LogWindows: Warning: URL: D:/UnrealEngine Projects/Lecture_3_4 version
+[2021.10.22-04.24.49:135][779]LogWindows: Warning: CreateProc failed: Access is denied. (0x00000005)
+[2021.10.22-04.24.49:135][779]LogWindows: Warning: URL: D:/UnrealEngine Projects/Lecture_3_4 version
+[2021.10.22-04.24.49:135][779]SourceControl: Error: Connection Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2021.10.22-04.24.57:846][ 14]LogSlate: Window 'Source Control Login' being destroyed
