@@ -1616,3 +1616,77 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.10.22-04.49.49:598][913]AssetCheck: New page: Asset Save: multiple assets
 [2021.10.22-04.49.49:598][913]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
 [2021.10.22-04.49.49:598][913]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.10.22-04.52.01:908][532]LogSlate: Window 'BP_Explosion' being destroyed
+[2021.10.22-04.52.01:910][532]LogSlate: Window 'BP_Explosion' being destroyed
+[2021.10.22-04.52.01:913][532]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-04.52.01:913][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-04.53.21:489][858]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.10.22-04.53.21:506][858]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_Default1F96A4CB4E5CB66C1397ACA36BE6F084.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.10.22-04.53.21:508][858]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.10.22-04.53.21:536][858]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_Default_BuiltData8B29240E428ED1EC7367FFB0E5588B3E.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.10.22-04.53.21:537][858]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.10.22-04.53.21:549][858]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.22-04.53.21:549][858]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.10.22-04.53.21:549][858]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.10.22-04.53.24:646][183]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2021.10.22-04.53.24:650][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.10.22-04.53.24:650][183]PIE: New page: PIE session: Minimal_Default (Oct 21, 2021, 2:53:24 PM)
+[2021.10.22-04.53.24:674][183]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.10.22-04.53.24:678][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004051s)
+[2021.10.22-04.53.24:679][183]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.10.22-04.53.24:679][183]LogPlayLevel: PIE: World Init took: (0.001529s)
+[2021.10.22-04.53.24:680][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005761s)
+[2021.10.22-04.53.24:721][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.10.22-04.53.24:727][183]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.10.22-04.53.24:727][183]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.22-04.53.24:727][183]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.22-04.53.24:727][183]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.22-04.53.24:727][183]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.22-04.53.24:727][183]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.22-04.53.24:727][183]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.22-04.53.24:727][183]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.22-04.53.24:727][183]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.22-04.53.24:728][183]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.22-04.53.24:728][183]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.22-04.53.24:731][183]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.22-04.53.24:731][183]LogAudioMixer: Display: 1: FrontRight
+[2021.10.22-04.53.24:745][183]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.10.22-04.53.24:746][183]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.22-04.53.24:746][183]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.22-04.53.24:746][183]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.22-04.53.24:746][183]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.10.22-04.53.24:746][183]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.10.22-04.53.24:747][183]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.10.22-04.53.24:747][183]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.10.22-04.53.24:747][183]LogInit: FAudioDevice initialized.
+[2021.10.22-04.53.24:747][183]LogAudio: Display: Audio Device (ID: 5) registered with world 'Minimal_Default'.
+[2021.10.22-04.53.24:752][183]LogLoad: Game class is 'GameModeBase'
+[2021.10.22-04.53.24:752][183]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2021.10.21-21.53.24
+[2021.10.22-04.53.24:753][183]LogWorld: Bringing up level for play took: 0.000794
+[2021.10.22-04.53.24:753][183]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.10.22-04.53.24:755][183]PIE: Server logged in
+[2021.10.22-04.53.24:756][183]PIE: Play in editor total start time 0.107 seconds.
+[2021.10.22-04.53.28:555][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-04.53.28:555][575]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.10.22-04.53.28:555][575]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.10.22-04.53.28:555][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-04.53.28:563][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.10.22-04.53.28:571][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.22-04.53.28:585][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.22-04.53.28:586][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.22-04.53.28:586][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.10.22-04.53.28:591][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2021.10.22-04.53.28:608][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.10.22-04.53.28:634][576]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.10.22-04.53.29:820][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.10.22-04.53.29:832][691]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_Default99BCACC5427644C6C207809ADFB9FD28.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.10.22-04.53.29:833][691]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.10.22-04.53.29:864][691]LogSavePackage: Moving '../../../../UnrealEngine Projects/Lecture_3_4/Saved/Minimal_Default_BuiltDataAB181BC5491AA392A96A2E973B5B4088.tmp' to '../../../../UnrealEngine Projects/Lecture_3_4/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2021.10.22-04.53.29:865][691]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2021.10.22-04.53.29:881][691]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.22-04.53.29:881][691]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2021.10.22-04.53.29:881][691]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
